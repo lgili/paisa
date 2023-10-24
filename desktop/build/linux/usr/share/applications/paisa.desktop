@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Paisa
-Exec=/usr/local/bin/Paisa %U
+Exec=/usr/local/bin/Paisa  --config /home/lgili/Documents/personal-accounting/paisa/paisa.yaml %U
 Terminal=false
 Type=Application
 Icon=paisa

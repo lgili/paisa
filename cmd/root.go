@@ -105,7 +105,7 @@ func InitLogger(desktop bool, hook log.Hook) {
 }
 
 func InitConfig() {
-	xdgDocumentDir := filepath.Join(xdg.UserDirs.Documents, "paisa")
+	xdgDocumentDir := filepath.Join(xdg.UserDirs.Documents,"paisa")
 	xdgDocumentPath := filepath.Join(xdgDocumentDir, "paisa.yaml")
 	if envConfigFile := os.Getenv("PAISA_CONFIG"); envConfigFile != "" {
 		config.LoadConfigFile(envConfigFile)
