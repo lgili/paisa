@@ -59,6 +59,7 @@ deploy:
 	fly scale count 1 --region lax --yes
 
 install:
+	npm install
 	npm run build
 	go build
 	go install
