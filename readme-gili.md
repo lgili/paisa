@@ -10,8 +10,15 @@ to run local on web
 make develop
 ```
 
-to build app for linuc
+to build app for linux
 ```bash
 cd desktop
 make build
+```
+
+to install for linux
+```bash
+cd desktop/build/
+mv Paisa paisa
+chmod u+x paisa
 ```
